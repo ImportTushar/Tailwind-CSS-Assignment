@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+</head>
+<body class="bg-slate-300 ">
+<!--sidebar-->
+<aside class="bg-slate-800 h-screen w-64 fixed ">
+    <div class="flex flex-col h-full ">
+
+<!--Dashboard-->
+            <div class="flex items-center justify-center text-white p-4">
+                <span class="text-2xl  font-semibold">Dashboard</span>
+            </div>
+<!--navigations-->
+            <nav class="flex-1 text-gray-400 ">
+                <ul class="space-y-1">
+                    <li class="px-4 py-2 bg-gray-900">
+                        <a href="#" class="flex items-center text-gray-100 gap-4">
+                            <i class="fas fa-chart-pie text-xl"></i>
+                            <span class="text-md">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="px-4 py-2 hover:text-gray-100 hover:bg-gray-900">
+                        <a href="#" class="flex items-center text-gray-100 gap-4">
+                            <i class="fas fa-users text-xl"></i>
+                            <span class="text-md">Team</span>
+                        </a>
+                    </li>
+                    <li class="px-4 py-2 hover:text-gray-100 hover:bg-gray-900">
+                        <a href="#" class="flex items-center text-gray-100 gap-4">
+                            <i class="fas fa-folder text-xl"></i>
+                            <span class="text-md">Projects</span>
+                        </a>
+                    </li>
+                    <li class="px-4 py-2 hover:text-gray-100 hover:bg-gray-900">
+                        <a href="#" class="flex items-center text-gray-100 gap-4">
+                            <i class="fas fa-calendar-alt text-xl"></i>
+                            <span class="text-md">Calender</span>
+                        </a>
+                    </li>
+                    <li class="px-4 py-2 hover:text-gray-100 hover:bg-gray-900">
+                        <a href="#" class="flex items-center text-gray-100 gap-4">
+                            <i class="fas fa-file-alt text-xl"></i>
+                            <span class="text-md">Documents</span>
+                        </a>
+                    </li>
+                    <li class="px-4 py-2 hover:text-gray-100 hover:bg-gray-900">
+                        <a href="#" class="flex items-center text-gray-100 gap-4">
+                            <i class="fas fa-clipboard-check text-xl"></i>
+                            <span class="text-md">Reports</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+<!--your team-->
+            <div class="py-4 text-gray-400">
+                <span class="px-4 py-2">Your Teams</span>
+                <ul class="mt-2 space-y-1">
+                    <li class="px-4 py-1 hover:text-gray-100 hover:bg-gray-900">
+                        <a href="#" class="flex items-center gap-4">
+                            <i class="fas fa-users"></i>
+                            <span>PW Skills</span>
+                        </a>
+                    </li>
+                    <li class="px-4 py-1 hover:text-gray-100 hover:bg-gray-900">
+                        <a href="#" class="flex items-center gap-4">
+                            <i class="fas fa-users"></i>
+                            <span>PW Labs</span>
+                        </a>
+                    </li>
+                    <li class="px-4 py-1 hover:text-gray-100 hover:bg-gray-900">
+                        <a href="#" class="flex items-center gap-4">
+                            <i class="fas fa-users"></i>
+                            <span>PW - IOI</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+         </div>   
+        </aside>
+<!--main Content-->
+        <main class="ml-64 p-4 bg-gray-300">
+            <header class="flex justify-between items-center bg-white py-4 px-6 shadow-md rounded-lg">
+                <div class=" flex  items-center">
+                    <i class="fas fa-user-circle text-xl"></i>
+                    <a href="#" class="hover:scale:105 transform transition-transform duration-300">
+                        <span class="ml-2 text-lg">Profile</span>
+                    </a>
+                </div>
+                <div class=" flex  items-center hover:scale:105 transform transition-transform duration-300">
+                    <a href="#" class="space-x-6 ">
+                        <i class="fas fa-search text-xl"></i>
+                        <i class="fas fa-bell text-xl"></i>
+                    </a>
+                </div>
+            </header>
+        </main>
+    </div>
+</body>
+</html>
